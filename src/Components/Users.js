@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from "react-redux";
 import getUsers from "../Redux/Action/GetUsers";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import style from './Search.module.css'
+import style from './Users.module.css'
+import Cards from "./MyCards";
 const Users = () => {
   const dispatch = useDispatch();
   const { users } = useSelector((state) => state.users);
@@ -16,8 +17,10 @@ const Users = () => {
     <div className={style.nav}>
         <Navbar/>
     </div>
-      <div>
-        hii
+      <div className={style.card}>
+        {users.results?.map((user) => (
+          <Cards key={user.id} user={user} />
+        ))}
       </div>
       <div>
         <Footer/>

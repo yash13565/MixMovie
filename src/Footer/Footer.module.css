@@ -1,5 +1,5 @@
 .firstdiv{
-    margin-top: 35rem;
+    margin-top: 32.5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -7,7 +7,7 @@
     color: lightcoral;
     height: 7.2rem ;
 }
-a{
+.firstdiv a{
     color: lightcoral;
     text-decoration: none;
 }

@@ -26,3 +26,22 @@
     background-color: black;
     width: 5rem;
 }
+.maincard{
+    width: 20rem;
+    height: 42rem;
+    margin-top: 3rem;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+     /* margin-left: 6rem; */
+     margin-top:2rem;
+     cursor:pointer;
+    
+}
+.card :hover{
+    opacity:.9
+}

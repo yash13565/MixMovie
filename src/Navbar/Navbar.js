@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div className={style.main}>
-        <h2><RiMovie2Fill/><Link className={style.link} to='/' >MixMovies</Link></h2>
+        <h4><RiMovie2Fill/><Link className={style.link} to='/' >MixMovies</Link></h4>
         <Link className={style.link} to='/popular'>Popular Movies</Link>
     </div>
   )
