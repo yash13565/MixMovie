@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import getUsers from "../Redux/Action/GetUsers";
 import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
 import style from './Users.module.css'
 import Cards from "./MyCards";
 const Users = () => {
@@ -22,9 +21,7 @@ const Users = () => {
           <Cards key={user.id} user={user} />
         ))}
       </div>
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 };

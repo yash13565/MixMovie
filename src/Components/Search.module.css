@@ -50,3 +50,8 @@
 .card :hover {
     opacity: .9
 }
+@media screen and (max-width:740px) {
+    .nav{
+        gap:20rem
+    }
+}
