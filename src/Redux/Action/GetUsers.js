@@ -10,3 +10,5 @@ export function getSearch(query) {
     payload: query
   };
 }
+
+//There are two actions here one is get user and one is get search.

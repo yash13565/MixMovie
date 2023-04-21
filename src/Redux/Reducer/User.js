@@ -6,6 +6,7 @@ const initialState = {
 };
 
 export default function users(state = initialState, action) {
+  //This is my dispatcher it contains two thing intialstate and action.Action tells us what to do
   console.log(action);
   switch (action.type) {
     case type.GET_USERS_REQUESTED:

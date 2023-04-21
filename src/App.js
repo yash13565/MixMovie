@@ -9,6 +9,7 @@ function App() {
       <Route path='/' element={<SearchField/>}/>
      </Routes>
   );
+  //Here we have created routing using react-router-dom
 }
 
 export default App;

@@ -16,15 +16,14 @@ export default function SearchField() {
   console.log(users);
   return (
     <>
-    <div className={style.nav}><Navbar/></div>
-    <div className={style.maininput}>
-      <input onChange={(e) => setSearch(e.target.value)} />
-      
-     <div > <button className={style.btn} onClick={handleSearch}>Search</button></div>
-     </div>
-     <div className={style.card}>{users.results?.map((user)=> <Cards  key={user.id} user={user}/>)}</div>
+      <div className={style.nav}><Navbar /></div>
+      <div className={style.maininput}>
+        <input onChange={(e) => setSearch(e.target.value)} />
+        <div > <button className={style.btn} onClick={handleSearch}>Search</button></div>
+      </div>
+      <div className={style.card}>{users.results?.map((user) => <Cards key={user.id} user={user} />)}</div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

@@ -1,14 +1,14 @@
-.card{
+.card {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
     align-items: center;
     justify-content: center;
-     /* margin-left: 6rem; */
-     margin-top:2rem;
-     cursor:pointer;
-    
+    margin-top: 2rem;
+    cursor: pointer;
+
 }
-.card :hover{
-    opacity:.9
+
+.card :hover {
+    opacity: .9
 }

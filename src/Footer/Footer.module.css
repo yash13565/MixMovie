@@ -1,13 +1,14 @@
-.firstdiv{
+.firstdiv {
     margin-top: 32.5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
     color: lightcoral;
-    height: 7.2rem ;
+    height: 7.2rem;
 }
-.firstdiv a{
+
+.firstdiv a {
     color: lightcoral;
     text-decoration: none;
 }

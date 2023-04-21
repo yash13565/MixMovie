@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,18 +7,21 @@
     height: 2.8rem;
     color: #ffba75;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: #ffba75;
     font-weight: bold;
 }
-.main h2:hover{
+
+.main h2:hover {
     cursor: pointer;
     background-color: rgb(51, 164, 209);
     border-radius: 5px;
     color: lightgray;
 }
-.link:hover{
+
+.link:hover {
     cursor: pointer;
     background-color: rgb(51, 164, 209);
     border-radius: 5px;

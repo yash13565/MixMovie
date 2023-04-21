@@ -21,3 +21,5 @@ function* userSaga() {
   yield takeEvery("GET_USERS_REQUESTED", getApi);
 }
 export default userSaga;
+
+//Here we are calling our all the apis and using generator method.In the line 2,10,19.
