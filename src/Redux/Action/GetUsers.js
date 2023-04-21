@@ -1,4 +1,4 @@
-import * as type from "../types";
+import * as type from "../Store/Types";
 export default function getUsers() {
   return {
     type: type.GET_USERS_REQUESTED

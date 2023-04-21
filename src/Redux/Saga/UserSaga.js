@@ -1,4 +1,4 @@
-import { call, put, takeEvery } from "redux-saga/effects";
+import { put, takeEvery } from "redux-saga/effects";
 function* getApi() {
   let result = yield fetch(
     `https://api.themoviedb.org/3/movie/now_playing?api_key=079d25c82040bf67eedcb0b96ca55e2e&language=en-us&page`

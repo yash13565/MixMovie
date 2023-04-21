@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getSearch } from "../redux/action/users";
+import { getSearch } from "../Redux/Action/GetUsers";
 import { Link } from "react-router-dom";
 export default function SearchField() {
   const { users } = useSelector((state) => state.users);
