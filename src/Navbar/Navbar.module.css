@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+    background-color: #567fa8;
+    height: 2.8rem;
+    color: #ffba75;
+}
+.link{
+    text-decoration: none;
+    color: #ffba75;
+    font-weight: bold;
+}
+.main h2:hover{
+    cursor: pointer;
+    background-color: rgb(51, 164, 209);
+    border-radius: 5px;
+    color: lightgray;
+}
+.link:hover{
+    cursor: pointer;
+    background-color: rgb(51, 164, 209);
+    border-radius: 5px;
+    color: lightgray;
+}

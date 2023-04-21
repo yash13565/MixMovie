@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-
 import getUsers from "../Redux/Action/GetUsers";
-import { Link } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import style from './Search.module.css'
 const Users = () => {
   const dispatch = useDispatch();
   const { users } = useSelector((state) => state.users);
@@ -12,8 +13,15 @@ const Users = () => {
   console.log(users);
   return (
     <>
-      <div>This is popular movie page</div>
-      go to search <Link to="/popular">Search</Link>
+    <div className={style.nav}>
+        <Navbar/>
+    </div>
+      <div>
+        hii
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </>
   );
 };

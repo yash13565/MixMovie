@@ -2,7 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getSearch } from "../Redux/Action/GetUsers";
-import { Link } from "react-router-dom";
+import style from './Search.module.css'
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 export default function SearchField() {
   const { users } = useSelector((state) => state.users);
   const [search, setSearch] = useState("");
@@ -13,10 +15,16 @@ export default function SearchField() {
   console.log(users);
   return (
     <>
+    <div className={style.nav}><Navbar/></div>
+    <div className={style.maininput}>
       <input onChange={(e) => setSearch(e.target.value)} />
-      <button onClick={handleSearch}>Search</button>
-      <br />
-      Go to movie page <Link to="/">Movie Page</Link>
+      
+     <div > <button className={style.btn} onClick={handleSearch}>Search</button></div>
+     </div>
+      <div>
+        
+        <Footer/>
+      </div>
     </>
   );
 }

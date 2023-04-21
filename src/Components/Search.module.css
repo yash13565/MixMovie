@@ -1,0 +1,28 @@
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.maininput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.maininput input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px grey;
+}
+.btn{
+    height:2rem;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 5rem;
+}

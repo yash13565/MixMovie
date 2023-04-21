@@ -5,8 +5,8 @@ import SearchField from './Components/Search';
 function App() {
   return (
      <Routes>
-      <Route path='/' element={<Users/>}/>
-      <Route path='/popular' element={<SearchField/>}/>
+      <Route path='/popular' element={<Users/>}/>
+      <Route path='/' element={<SearchField/>}/>
      </Routes>
   );
 }
